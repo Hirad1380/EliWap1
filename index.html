@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="CSS/global.css">
+    <title>Document</title>
+
+<body>
+    <div class="box">
+        <nav>
+
+            <img class="img-logo" src="special.png" alt="logo">
+            <!-- <i class="ri-home-office-line" class="LOGO">LOGO</i> -->
+            <!-- <img src="special.png" alt="special" class="special"> -->
+
+
+            <ul>
+                <li><i class="ri-home-3-fill"></i><a href="#">HOME</a></li>
+                <li><i class="ri-book-2-fill"></i><a href="#">MY BOOK</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">Favorite</a></li>
+                        <li><a href="#">Shares</a></li>
+                    </ul>
+                </li>
+                <li><i class="ri-account-circle-fill"></i><a href="#">MY ACCOUNT</a></li>
+                <li><a href="#">About</a></li>
+                <div class="Search-Box-1" id="Search-Bar-1">
+                    <input class="Search-txt-1" type="text" placeholder="------Search------">
+                    <button id="search-button" class="Search-Submit">
+                        <i class="ri-search-line"></i>
+                    </button>
+                </div>
+            </ul>
+
+
+            <!-- <img src="" alt="user" onclick="toggleMenu()"> -->
+            <!-- <ion-icon name="person-sharp" onclick="toggleMenu()"></ion-icon> -->
+            <ul class="person-con">
+                <li class="person">
+                    <i class="ri-user-3-fill"></i>
+                    <a href="#" onclick="toggleMenu()">Profile</a>
+                </li>
+            </ul>
+
+
+
+            <div class="sub-menu" id="subMenu">
+                <div class="submenu">
+                    <div class="user-info">
+                        <!-- <img src=""  alt="userinformation"> -->
+                        <i class="ri-information-fill"></i>
+                        <h3>Eli WAP</h3>
+                    </div>
+
+
+                    <hr>
+                    <a href="#" class="sub-menu-link">
+
+                        <!-- <img src="" alt="profile"> -->
+                        <i class="ri-edit-fill"></i>
+
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+
+                        <!-- <img src="" alt="setting"> -->
+                        <i class="ri-settings-5-fill"></i>
+
+                        <p>Settings & Privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+
+                        <!-- <img src="" alt="help"> -->
+                        <i class="ri-question-fill"></i>
+
+                        <p>Help & Supports</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="sub-menu-link">
+
+                        <!-- <img src="" alt="logout"> -->
+                        <i class="ri-logout-box-fill"></i>
+
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+        <h2 class="h-book">Classic Books</h2>
+        <span onclick="slideRight()" class="btn E1-btn"></span>
+        <div id="container">
+            <div id="slider-container">
+                
+                <div id="slider">
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              
+            </div>
+        </div>
+        <span onclick="slideLeft()" class="btn E2-btn"></span>
+
+
+
+        <h2 class="h-book">Kids Books</h2>
+        <span onclick="slideRight1()" class="btn1 E1-btn1"></span>
+        <div id="container1">
+            <div id="slider-container1">
+                
+                <div id="slider1">
+                  <div class="slide1">
+                    <div class="slider-box1">
+                        <p class="time1">New</p>
+                        <div class="img-box1">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detai1">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart1">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide1">
+                    <div class="slider-box1">
+                        <p class="time1">New</p>
+                        <div class="img-box1">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detai1">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart1">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide1">
+                    <div class="slider-box1">
+                        <p class="time1">New</p>
+                        <div class="img-box1">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detai1">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart1">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide1">
+                    <div class="slider-box1">
+                        <p class="time1">New</p>
+                        <div class="img-box1">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detai1">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart1">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide1">
+                    <div class="slider-box1">
+                        <p class="time1">New</p>
+                        <div class="img-box1">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detai1">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart1">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide1">
+                    <div class="slider-box1">
+                        <p class="time1">New</p>
+                        <div class="img-box1">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detai1">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart1">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide1">
+                    <div class="slider-box1">
+                        <p class="time1">New</p>
+                        <div class="img-box1">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detai1">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart1">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide1">
+                    <div class="slider-box1">
+                        <p class="time1">New</p>
+                        <div class="img-box1">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detai1">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart1">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide1">
+                    <div class="slider-box1">
+                        <p class="time1">New</p>
+                        <div class="img-box1">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detai1">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart1">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide1">
+                    <div class="slider-box1">
+                        <p class="time1">New</p>
+                        <div class="img-box1">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detai1">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart1">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+
+            </div>
+        </div>
+        <span onclick="slideLeft1()" class="btn1 E2-btn1"></span>
+
+
+
+
+        <!-- <h2 class="h-book">Romantic Books</h2>
+        <div id="container">
+            <div id="slider-container">
+              <span onclick="slideRight()" class="btn"></span>
+                <div id="slider">
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <span onclick="slideLeft()" class="btn"></span>
+            </div>
+        </div>
+
+
+
+
+
+        <h2 class="h-book">History Books</h2>
+        <div id="container">
+            <div id="slider-container">
+              <span onclick="slideRight()" class="btn"></span>
+                <div id="slider">
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slider-box">
+                        <p class="time">New</p>
+                        <div class="img-box">
+                            <img src="1061824-11111.jpg" alt="Product">
+                        </div>
+                        <p class="detail">
+                            <a href="#" class="price">price-40$</a>
+                        </p>
+                        <div class="cart">
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <span onclick="slideLeft()" class="btn"></span>
+            </div>
+        </div> -->
+
+
+
+
+
+
+        <footer>
+            <div class="footer">
+                <div class="row">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></i></a>
+                    <a href="#"><i class="ri-youtube-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                </div>
+            
+                <div class="row">
+                    <ul>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Career</a></li>
+                    </ul>
+                </div>
+            
+                <div class="row">
+                INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh 
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+    </div>
+    <script src="JS/EliWapscript.js"></script>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+</body>
+
+</html>
+</head>
